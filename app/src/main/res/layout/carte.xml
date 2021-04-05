@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="250dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <TextView
+        android:id="@+id/textfirstnam"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Firstname" />
+    <EditText
+        android:id="@+id/editfirstnam"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/textlastnam"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Lastname " />
+    <EditText
+        android:id="@+id/editlastnam"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="5dp"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/textnumcart"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Numéro de carte" />
+    <EditText
+        android:id="@+id/editnumcart"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="5dp"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/textcode"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Code " />
+    <EditText
+        android:id="@+id/editcode"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Date d'expiration "
+        />
+    <EditText
+        android:id="@+id/editdate"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="5dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+</LinearLayout>
